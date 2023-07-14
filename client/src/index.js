@@ -5,7 +5,7 @@ import Home from './Home';
 import Main from './Main';
 import About from './About';
 import VerifyOwner from './VerifyOwner';
-import UploadPage from './backend/UploadPage';
+import UploadPage from './UploadPage';
 import reportWebVitals from './reportWebVitals';
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import {
@@ -32,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/verify-ownership",
     element: <VerifyOwner/>
+  },
+  {
+    path:"/UploadYourMusic",
+    element: <UploadPage/>
   },
 ]);
 
